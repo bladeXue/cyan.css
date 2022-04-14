@@ -1,0 +1,9 @@
+@use "test/test";
+
+.article--content__float {
+  height: 2px;
+  @include test.float-left;
+}
+
+
+

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>flex flow</title>
+
+    <style>
+       .flex-container {
+           display: flex;
+           flex-flow: row wrap-reverse;
+       }
+       .flex-item {
+           flex: 0 1 100px;
+
+       }
+       .bg {
+           margin: 0 auto;
+           width: 650px;
+           /*height: 200px;*/
+           background-color: lightgray;
+       }
+       .title {
+           margin: 0;
+           padding-left: 10px;
+           border-bottom: 2px solid white;
+           height: 40px;
+           color: white;
+            font-size: 2rem;
+           line-height: 40px;
+       }
+       .box {
+           /* 让盒子长好看点 */
+           margin: 10px;
+           width: 100px;
+           height: 100px;
+           background-color: lightcoral;
+           text-align: center;
+           color: white;
+           font-size: 3rem;
+           line-height: 100px;
+       }
+    </style>
+
+</head>
+<body>
+
+<!-- HTML -->
+<div class="bg">
+    <p class="title">wrap-reverse</p>
+<div class="flex-container">
+    <div class="flex-item box">A</div>
+    <div class="flex-item box">B</div>
+    <div class="flex-item box">C</div>
+    <div class="flex-item box">D</div>
+    <div class="flex-item box">E</div>
+    <div class="flex-item box">F</div>
+    <div class="flex-item box">G</div>
+    <div class="flex-item box">H</div>
+</div></div>
+
+</body>
+</html>

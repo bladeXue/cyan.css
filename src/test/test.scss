@@ -1,0 +1,11 @@
+.block {
+  display: block;
+}
+
+@mixin float-left {
+  @extend .block;
+  float: left;
+  width: 1px;
+}
+
+

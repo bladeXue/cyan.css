@@ -1,0 +1,37 @@
+// 一些传统样式
+// 设置字体
+body {
+  font-family: -apple-system-font,
+  BlinkMacSystemFont,
+  "Helvetica Neue",
+  "PingFang SC",
+  "Hiragino Sans GB",
+  "Microsoft YaHei UI",
+  "Microsoft YaHei",
+  Arial,
+  sans-serif
+}
+
+// 设置隐藏控件
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+// 这个不太理解，应该是防止流式布局的压缩的
+.pure-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 页面蒙版 */
+.mask{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,.5);
+  z-index: 300;
+}
