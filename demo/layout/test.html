@@ -8,37 +8,90 @@
     <title>test</title>
 
     <style>
+        .box {
+            width: 400px;
+            height: 200px;
+            box-sizing: border-box;
+            border: 5px solid lightgray;
+            margin: 10px;
+            float: left;
+        }
+
+        .title {
+            background-color: lightgray;
+            color: white;
+            font-size: 1.5rem;
+        }
+
         .flex-container {
             display: flex;
-            width: 400px;
+            align-items: stretch;
+            width: 100%;
+            height: 100%;
         }
 
         .flex-item {
-            flex: 1 1 200px;
-            height: 200px;
-
+            flex: 1 1 25%;
+            color: white;
+            font-size: 1.25rem;
         }
 
-        #A {
-            background-color: lightgreen;
-        }
-
-        #B {
+        .flex-item.A {
             background-color: lightcoral;
         }
 
-        #C {
+        .flex-item.B {
             background-color: lightblue;
+        }
+
+        .flex-item.C {
+            background-color: lightgreen;
+        }
+
+        .flex-item.D {
+            background-color: lightseagreen;
         }
     </style>
 
 </head>
 <body>
 
-<div class="flex-container">
-    <div id="A" class="flex-item">A</div>
-    <div id="B" class="flex-item">B</div>
-    <div id="C" class="flex-item">C</div>
+<div id="box1" class="box">
+    <div class="flex-container">
+        <div class="flex-item A">flex-start</div>
+        <div class="flex-item B">B</div>
+        <div class="flex-item C">C</div>
+        <div class="flex-item D">D</div>
+    </div>
+</div>
+
+<div id="box2" class="box">
+    <div class="flex-container">
+        <div class="flex-item A">A</div>
+        <div class="flex-item B">B</div>
+        <div class="flex-item C">C</div>
+        <div class="flex-item D">D</div>
+    </div>
+</div>
+
+<div id="box3" class="box">
+    <div class="flex-container">
+        <div class="flex-item A">A</div>
+        <div class="flex-item B">B</div>
+        <div class="flex-item C">C</div>
+        <div class="flex-item D">D</div>
+
+    </div>
+</div>
+
+<div id="box4" class="box">
+    <div class="flex-container">
+        <div class="flex-item A">A</div>
+        <div class="flex-item B">B</div>
+        <div class="flex-item C">C</div>
+        <div class="flex-item D">D</div>
+
+    </div>
 </div>
 
 </body>
