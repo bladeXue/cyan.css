@@ -1,6 +1,6 @@
 规范采用SMACSS，业务代码采用BEM
 
-以Pure为底板（雅虎的，本身就是SMACSS规范），一些设计参考了tt和material，部分组件风格上看了weui
+以Pure为底板（雅虎的，本身就是SMACSS规范），一些设计参考了tt和material，部分组件风格上看了weui。反正最终效果就是多抄抄[https://github.com/primer/css](https://github.com/primer/css)，因为它的组件实在是太多了
 
 在实现原型的过程中，融合了一些pure site的代码，尽量做减法，确保样式的纯净，同时对于一些default属性，我还是选择不将其写出来（但是填写到注释里），因为这样后面改写的时候，会更有目的性，会更加方便一些
 
@@ -8,7 +8,7 @@
 
 ## 目录
 
-可以看看cube的sass目录
+可以看看kube的sass目录，其衍生版本superkube是个纯scss项目
 
 ## 栅格
 
