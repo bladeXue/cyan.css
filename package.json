@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "browser-sync --server demo/pure/index.html",
     "sass": "sass --watch src/entry.scss build/pale.css",
+    "sass-x": "sass vendor/assets/stylesheets/_xcss.scss build/pure/_xcss.css",
     "sass-compressed": "sass --watch src/sass/input.scss target/stylesheets/output.css --style compressed",
     "sass-all": "sass --watch src/sass:target/stylesheets"
   },

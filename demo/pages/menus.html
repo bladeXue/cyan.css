@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menus Demo</title>
+
+    <link rel="stylesheet" href="css/pale/_xcss.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .custom-restricted-width {
+
+            display: inline-block;
+        }
+    </style>
+    <style>
+        /* Customization to limit height of the menu */
+        .custom-restricted {
+            height: 160px;
+            width: 150px;
+            border: 1px solid gray;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div class="x-menu custom-restricted-width">
+            <span class="x-menu-heading">Yahoo Sites</span>
+
+            <ul class="x-menu-list">
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Flickr</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Messenger</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Sports</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Finance</a></li>
+                <li class="x-menu-heading">More Sites</li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Games</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">News</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">OMG!</a></li>
+            </ul>
+        </div>
+        <div class="line"></div>
+
+        <div class="x-menu x-menu-horizontal">
+            <a href="#" class="x-menu-heading x-menu-link">BRAND</a>
+            <ul class="x-menu-list">
+                <li class="x-menu-item"><a href="#" class="x-menu-link">News</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Sports</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Finance</a></li>
+            </ul>
+        </div>
+        <div class="line"></div>
+
+        <div class="x-menu x-menu-horizontal">
+            <ul class="x-menu-list">
+                <li class="x-menu-item x-menu-selected"><a href="#" class="x-menu-link">Selected</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Normal</a></li>
+                <li class="x-menu-item x-menu-disabled">Disabled</li>
+            </ul>
+        </div>
+        <div class="line"></div>
+
+        <div class="x-menu x-menu-horizontal">
+            <ul class="x-menu-list">
+                <li class="x-menu-item x-menu-selected"><a href="#" class="x-menu-link">Home</a></li>
+                <li class="x-menu-item x-menu-has-children x-menu-allow-hover">
+                    <a href="#" id="menuLink1" class="x-menu-link">Contact</a>
+                    <ul class="x-menu-children">
+                        <li class="x-menu-item"><a href="#" class="x-menu-link">Email</a></li>
+                        <li class="x-menu-item"><a href="#" class="x-menu-link">Twitter</a></li>
+                        <li class="x-menu-item"><a href="#" class="x-menu-link">Tumblr Blog</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="line"></div>
+
+        <div class="x-menu custom-restricted-width">
+            <ul class="x-menu-list">
+                <li class="x-menu-item x-menu-selected"><a href="#" class="x-menu-link">Flickr</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Messenger</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Sports</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Finance</a></li>
+                <li class="x-menu-item x-menu-has-children">
+                    <a href="#" id="menuLink1" class="x-menu-link">More</a>
+                    <ul class="x-menu-children">
+                        <li class="x-menu-item"><a href="#" class="x-menu-link">Autos</a></li>
+                        <li class="x-menu-item"><a href="#" class="x-menu-link">Flickr</a></li>
+                        <li class="x-menu-item x-menu-has-children">
+                            <a href="#" id="menuLink1" class="x-menu-link">Even More</a>
+                            <ul class="x-menu-children">
+                                <li class="x-menu-item"><a href="#" class="x-menu-link">Foo</a></li>
+                                <li class="x-menu-item"><a href="#" class="x-menu-link">Bar</a></li>
+                                <li class="x-menu-item"><a href="#" class="x-menu-link">Baz</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="line"></div>
+
+        <div class="x-menu x-menu-horizontal x-menu-scrollable">
+            <a href="#" class="x-menu-link x-menu-heading">Yahoo</a>
+            <ul class="x-menu-list">
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Home</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Flickr</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Messenger</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Sports</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Finance</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Autos</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Beauty</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Movies</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Small Business</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Cricket</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Tech</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">World</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">News</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Support</a></li>
+            </ul>
+        </div>
+        <div class="line"></div>
+
+
+        <div class="x-menu x-menu-scrollable custom-restricted">
+            <a href="#" class="x-menu-link x-menu-heading">Yahoo</a>
+            <ul class="x-menu-list">
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Home</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Flickr</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Messenger</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Sports</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Finance</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Autos</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Beauty</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Movies</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Small Business</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Cricket</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Tech</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">World</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">News</a></li>
+                <li class="x-menu-item"><a href="#" class="x-menu-link">Support</a></li>
+            </ul>
+        </div>
+        <div class="line"></div>
+
+    </div>
+
+</body>
+
+</html>

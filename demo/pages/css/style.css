@@ -1,0 +1,14 @@
+#container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.line {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 0;
+    border-bottom: 2px solid lightgray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
