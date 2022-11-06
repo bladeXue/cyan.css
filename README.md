@@ -1,4 +1,8 @@
-规范采用SMACSS，业务代码采用BEM
+# 须知
+
+本项目是暂时用，开发完整后，未来并入`pale.scss`仓库，ui风格以实现purecss的风格为主，代码结构上采用scss和ttui的。
+
+规范采用SMACSS，业务代码采用BEM。
 
 以Pure为底板（雅虎的，本身就是SMACSS规范），一些设计参考了tt和material，部分组件风格上看了weui。反正最终效果就是多抄抄[https://github.com/primer/css](https://github.com/primer/css)，因为它的组件实在是太多了
 
