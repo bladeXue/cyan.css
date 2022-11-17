@@ -1,0 +1,18 @@
+// use modules
+@use "mixins/base/reset";
+@use "mixins";
+
+
+// import normalize.css as a basic to balance browser differences
+@import "normalize.css/normalize.css";
+@include reset.reset;
+
+
+.element {
+  color: #000;
+
+  @include mixins.respond-to(sm) {
+    color: #333;
+  }
+}
+

@@ -1,0 +1,16 @@
+/* button */
+button {
+  font-size: 1rem;
+}
+
+/* div */
+div {
+  display: subgrid;
+}
+
+/* base */
+.base {
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=base.css.map */

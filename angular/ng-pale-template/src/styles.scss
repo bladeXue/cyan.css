@@ -1,7 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
 
-// import normalize.css
-@import "normalize.css";
-
 // 导入全局设置
-//@use "assets/styles/mixins/global";
+@use "assets/styles/pale.global";
