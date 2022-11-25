@@ -1,3 +1,4 @@
+// 统一样式
 @use "normalize.css";
 
 // 这个统一全局字体可以放到全局theme里
@@ -15,7 +16,7 @@ html {
 
 
 // 图片处理
-.inside-img {
+.pl-img {
   max-width: 100%;
   height: auto;
   display: block;

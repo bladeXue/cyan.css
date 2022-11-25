@@ -1,8 +1,5 @@
-@use "../../assets/oldstyles/_mixins/buttons/button";
+.button {
 
-button {
-  @include button.make-btn();
+
+
 }
-
-
-
