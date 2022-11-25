@@ -1,4 +1,4 @@
-@use "../../assets/styles/mixins/buttons/button";
+@use "../../assets/oldstyles/_mixins/buttons/button";
 
 button {
   @include button.make-btn();

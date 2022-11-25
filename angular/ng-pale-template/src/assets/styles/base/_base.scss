@@ -1,0 +1,23 @@
+@use "normalize.css";
+
+// 这个统一全局字体可以放到全局theme里
+// 用body来控制
+html {
+  font-family: sans-serif;
+}
+
+
+// 隐藏器可以加上响应式设计
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+
+// 图片处理
+.inside-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
